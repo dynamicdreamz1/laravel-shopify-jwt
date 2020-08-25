@@ -10,5 +10,10 @@
             "name": "Daljeet Singh",
             "email": "d.singh@cynux.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cynux\\LaravelShopifyJWT\\": "src/"
+        }
+    }
 }
